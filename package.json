@@ -1,0 +1,20 @@
+{
+  "name": "echo-revenue-engine",
+  "version": "1.0.0",
+  "description": "Autonomous Revenue Engine — generates expert PDF products from 619K engine doctrines, sells on Gumroad + Shopify, promotes via bot fleet",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "dependencies": {
+    "hono": "^4.4.0",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240512.0",
+    "typescript": "^5.4.0",
+    "wrangler": "^3.60.0"
+  }
+}
