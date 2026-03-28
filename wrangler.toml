@@ -56,3 +56,7 @@ crons = [
 # Wednesday 8am CST: Mid-week promotion push
 # 1st of month 4am CST: Monthly product launch
 # Friday 12pm CST: Weekend sale push
+
+[[analytics_engine_datasets]]
+binding = "ANALYTICS"
+dataset = "echo_metrics"
